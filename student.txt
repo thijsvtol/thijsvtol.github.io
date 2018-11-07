@@ -1,0 +1,3 @@
+student name : Thijs van Tol
+student number : 630704
+student class : INF1SA
