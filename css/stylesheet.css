@@ -82,11 +82,10 @@ body{
     border: 1px solid white;
     border-right:1px;
     border-left:1px;
-    margin-top: -970px;
+    margin-top: -40px;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 /* HEADER */
@@ -196,7 +195,7 @@ footer{
         position: absolute;
         left: 50%;
         transform: translate(-50%);
-        margin-top: -40px;
+        margin-top: -60px;
     }
     
     /* HEADER */
@@ -274,7 +273,6 @@ footer{
         border-right :1px;
         border-left: 1px;
         border-bottom: 1px;
-        margin-top: -5px;
     }
 
     .hidetablet{
