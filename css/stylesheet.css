@@ -178,7 +178,7 @@ footer{
 }
 
 /*TABLET VERSION*/
-@media screen and (max-width: 960px)
+@media screen and (max-width: 960px) and (min-width: 361px){
     body{
         background-color: #2699FB;
     }
@@ -310,7 +310,6 @@ footer{
         border-right:1px;
         border-left:1px;
         z-index: inherit;
-        display: block;
     }
     
     /* HEADER */
