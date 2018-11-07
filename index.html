@@ -1,39 +1,62 @@
 <! DOCTYPE html >
-<html lang = "nl" >
+<html lang = "en" >
 <head>
-<meta charset = "utf-8" >
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel = "stylesheet" type = "text/css" href = "css/stylesheet.css" >
-<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-<title>Company Name</title>
+    <meta charset = "utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel = "stylesheet" type = "text/css" href = "css/stylesheet.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <title>Company Name</title>
+
 </head>
 <body>
+    <!--Banner-->
     <header>
         <article class="container">
             <img class="imglogo" src="img/companylogoBG.jpg" alt="Company Logo">
             <a class="logo" href="index.html"> Companey Name</a>
         </article>
     </header>
-    <nav>
-        <a class="nav" href="index.html">Product &nbsp;</a>
-        <a class="nav" href="product.html">Blog &nbsp;</a>
-        <a class="nav" href="contact.html">Contact</a>
-    </nav>
+
     <article class="inhoud">
+        <!--MENU-->
+        <nav class="navbar">
+            <a class="hidemobile" href="products.html">Home</a>
+            <a class="hidemobile" href="https://blogger.com/">Blog</a>
+            <a class="hidemobile" href="contact.html">Contact</a>
+                <article class="dropdown hidepc hidetablet">
+                    <button class="dropbtn"><img class="navimg" src="img/mobile-menu.png" alt="menu"> 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <article class="dropdown-content">
+                        <a href="products.html">Products</a>
+                        <a href="https://blogger.com/">Blog</a>
+                        <a href="contact.html">Contact</a>
+                    </article>
+                </article> 
+        </nav>
+        <!--INHOUD-->
         <h1>We are entertainment</h1>
         <img class="fotos" src="img/index/product3.jpg" alt="Entertainment">
-        <h1 id="hide" class="hide hide2">Mobile Games</h1>
+
+        <h1 class="hidetablet hidemobile">Mobile Games</h1>
         <img class="fotos" src="img/index/product8.jpg" alt="Mobile Games">
-        <h1 id="hide" class="hide hide2">Board Games</h1>
-        <img class="fotos hide" id="hide" src="img/index/product6.jpg" alt="Board Games">
-        <h1 class="hide2">Console Games</h1>
+
+        <h1 class="hidetablet hidemobile">Board Games</h1>
+        <img class="fotos hidetablet" src="img/index/product6.jpg" alt="Board Games">
+
+        <h1 class="hidemobile">Console Games</h1>
         <img class="fotos" id="fotoBottom" src="img/index/product9.jpg" alt="Console Games">
+        <!--EINDE INHOUD-->
+        <!--Footer-->
         <footer>©2018 - Thijs van Tol - Inholland</footer>
     </article>
-    
-    <video autoplay muted loop id="backgroundvideo" class="hide hide2">
-        <source src="movie/background.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
+    <!--Background Video-->
+    <video autoplay muted loop id="backgroundvideo" class="hidetablet hidemobile">
+            <source src="movie/background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
     </video>
+
 </body>
 </html>
