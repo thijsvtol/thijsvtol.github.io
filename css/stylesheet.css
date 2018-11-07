@@ -310,6 +310,7 @@ footer{
         border-right:1px;
         border-left:1px;
         z-index: inherit;
+        display: block;
     }
     
     /* HEADER */
