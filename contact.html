@@ -3,7 +3,7 @@
 <head>
     <meta charset = "utf-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Thijs van Tol">
+    <meta name="author" content="Thijs van Tol" />
 	<meta name="description" content="Entertainment website for Webmarkup assignment" />
 	<meta name="keywords" content="mobilegames, games, boardgames, online " />
 
@@ -25,32 +25,59 @@
     <article class="inhoud">
         <!--MENU-->
         <nav class="navbar">
+            <a class="hidemobile" href="index.html">Home</a>
             <a class="hidemobile" href="products.html">Products</a>
             <a class="hidemobile" href="https://thijsvtol-webmarkup.blogspot.com/" target="_blank">Blog</a>
-            <a class="hidemobile" href="contact.html">Contact</a>
                 <article class="dropdown hidepc hidetablet">
                     <button class="dropbtn"><img class="navimg" src="img/mobile-menu.png" alt="menu"> 
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <section class="dropdown-content">
+                        <a href="index.html">Home</a>
                         <a href="products.html">Products</a>
                         <a href="https://thijsvtol-webmarkup.blogspot.com/" target="_blank">Blog</a>
-                        <a href="contact.html">Contact</a>
                     </section>
                 </article> 
         </nav>
         <!--INHOUD-->
-        <h1>We are entertainment</h1>
-        <img class="fotos" src="img/index/product3.jpg" alt="Entertainment">
-
-        <h1 class="hidetablet hidemobile">Mobile Games</h1>
-        <img class="fotos" src="img/index/product8.jpg" alt="Mobile Games">
-
-        <h1 class="hidetablet hidemobile">Board Games</h1>
-        <img class="fotos hidetablet" src="img/index/product6.jpg" alt="Board Games">
-
-        <h1 class="hidemobile">Console Games</h1>
-        <img class="fotos" id="fotoBottom" src="img/index/product9.jpg" alt="Console Games">
+        <h1>Contact</h1>
+        <form action="nowhere.php" method="post">
+                <fieldset>
+                    <label >Select topic</label>
+                    <select>
+                        <option value="general">General inquiries</option>
+                        <option value="press">Press relations</option>
+                        <option value="recruitement">Recruitement</option>
+                    </select>
+                </fieldset>
+                <fieldset class="contactFormFieldset">
+                    <input
+                            type="text"
+                            name="contactFormName"
+                            placeholder="Your name.."
+                    />
+                </fieldset>
+                <fieldset class="contactFormFieldset">
+                    <input
+                            type="email"
+                            name="email"
+                            placeholder="Your email.."
+                    />
+                </fieldset>
+                <fieldset>
+                    <textarea
+                            rows="7"
+                            cols="40"
+                            name="message"
+                            placeholder="Write something.."
+                    ></textarea>
+                </fieldset>
+                <input
+                        type="submit"
+                        value="Submit"
+                />
+            </form>
+            
         <!--EINDE INHOUD-->
         <!--Footer-->
         <footer>©2018 - Thijs van Tol - Inholland</footer>
