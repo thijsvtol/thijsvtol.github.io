@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Thijs van Tol" />
 	<meta name="description" content="Entertainment website for Webmarkup assignment" />
-	<meta name="keywords" content="contact, help, contactform, info, onlinegames, mobilegames, games, boardgames, online " />
+	<meta name="keywords" content="products, photos, galary, colums, onlinegames, mobilegames, games, boardgames, online " />
 
     <link rel = "stylesheet" type = "text/css" href = "css/stylesheet.css" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
@@ -26,62 +26,45 @@
         <!--MENU-->
         <nav class="navbar">
             <a class="hidemobile" href="index.html">Home</a>
-            <a class="hidemobile" href="products.html">Products</a>
             <a class="hidemobile" href="https://thijsvtol-webmarkup.blogspot.com/" target="_blank">Blog</a>
+            <a class="hidemobile" href="contact.html">Contact</a>
                 <article class="dropdown hidepc hidetablet">
                     <button class="dropbtn"><img class="navimg" src="img/mobile-menu.png" alt="menu"> 
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <section class="dropdown-content">
                         <a href="index.html">Home</a>
-                        <a href="products.html">Products</a>
                         <a href="https://thijsvtol-webmarkup.blogspot.com/" target="_blank">Blog</a>
+                        <a href="contact.html">Contact</a>
                     </section>
                 </article> 
         </nav>
         <!--INHOUD-->
-        <h2>Contact</h2>
-        <form action="nowhere.php" method="post">
-            <h3>More information</h3>
-                <fieldset>
-                    <label >Select topic</label>
-                    <select>
-                        <option value="general">General inquiries</option>
-                        <option value="press">Press relations</option>
-                        <option value="recruitement">Recruitement</option>
-                    </select>
-                </fieldset>
-                <fieldset >
-                    <input
-                            class="contactFormFieldset"
-                            type="text"
-                            name="contactFormName"
-                            placeholder="Your name.."
-                    />
-                </fieldset>
-                <fieldset >
-                    <input
-                            class="contactFormFieldset"
-                            type="email"
-                            name="email"
-                            placeholder="Your email.."
-                    />
-                </fieldset>
-                <fieldset>
-                    <textarea
-                        class="contactFormFieldset"
-                            rows="7"
-                            cols="40"
-                            name="message"
-                            placeholder="Write something.."
-                    ></textarea>
-                </fieldset>
-                <input
-                        type="submit"
-                        value="Submit"
-                />
-            </form>
-
+        <h2>Product Catalog</h2>
+        <section class="row"> 
+            <section class="column">
+                <img id="p1" src="img/product1.jpg" title="Rubix" alt="Rubix cube">
+                <img id="p2" src="img/product2.jpg" title="Toys" alt="Mini Village">
+                <img id="p3" src="img/product3.jpg" title="Mario" alt="Characters">
+                <img id="p4" src="img/product4.jpg" title="Gambling" alt="Casino">
+            </section>
+            <section class="column">
+                <img id="p5" src="img/product5.jpg" title="Chess" alt="Chess">
+                <img id="p6" src="img/product6.jpg" title="Users" alt="Players">
+                <img id="p7" src="img/product7.jpg" title="Dart" alt="Darts">
+                <img id="p8" src="img/product8.jpg" title="CanyCrush" alt="Mobile Games">
+            </section>  
+            <section class="column">
+                <img id="p9" src="img/product9.jpg" title="Console" alt="Console Games">
+                <img id="p10" src="img/product10.jpg" title="OldConsole" alt="Old Console Games">
+                <img class="hidetablet" id="p11" src="img/product11.jpg" title="RealLife" alt="Real life games">
+                <img class="hidetablet" id="p12" src="img/product12.jpg" title="Beerpong" alt="Beerpong">
+            </section>
+            <section class="column hidepc hidemobile">
+                <img id="p11" src="img/product11.jpg" title="RealLife" alt="Real life games">
+                <img id="p12" src="img/product12.jpg" title="Beerpong" alt="Beerpong">
+            </section>
+        </section>
         <!--EINDE INHOUD-->
         <!--Footer-->
         <footer>&copy;2018 - <strong>Thijs van Tol</strong> - Inholland</footer>
