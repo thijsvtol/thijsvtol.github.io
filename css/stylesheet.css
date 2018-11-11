@@ -7,7 +7,7 @@ body {
 .navbar a {
     float: center;
     font-size: 16px;
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -24,7 +24,7 @@ body {
     font-size: 16px;    
     border: none;
     outline: none;
-    color: white;
+    color: #FFFFFF;
     padding: 10px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -56,13 +56,56 @@ body {
     display: block;
 }
 
+form{
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-bottom:0;
+}
+
+[type~=submit] {
+    width: 40%;
+    background-color: #2699FB;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    margin-left: 30%;
+}
+
+fieldset{
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    background-color: #FFFFFF;
+    font-size: 100%;
+}
+
+
+.contactFormFieldset{
+    width: 100%;
+    border: 0;
+}
+
+select{
+    float: right;
+    width: 50%;;
+}
+
+
 /*DESKTOP VERSION*/
 @media screen and (min-width: 960px){
 /*BACKGROUND*/
 body{
     background-image: url("../img/background.jpeg");
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 #backgroundvideo {
@@ -79,7 +122,7 @@ body{
     height: 42px;
     background-color: #707070;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     border-right:1px;
     border-left:1px;
     margin-top: -40px;
@@ -108,7 +151,7 @@ body{
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: #FFFFFF;
 }
 
 .logo {
@@ -120,7 +163,7 @@ body{
     font-family: Rolanti;
     font-size: 50px;
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
     text-transform: uppercase;
     text-shadow:
     -3px -3px 0 #000,  
@@ -145,14 +188,26 @@ body{
     transform: translate(-50%, -50%);
     margin-top: 831px;
 }
+.inhoudContact{
+    height: 650px;
+    width: 720px;
+    background-color: #2699FB;
+    /*margin-left: 400px;
+    margin-right: 400px;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 231px;
+}
 
 .fotos{
     width:720px;
 }
 
-h1{
+h2{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-size: 70px;
     text-align: center;
@@ -164,10 +219,10 @@ footer{
     height: 25px;
     line-height: 25px;
     background-color: black;
-    color: white;
+    color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     border-right :1px;
     border-left: 1px;
     border-bottom: 1px;
@@ -190,7 +245,7 @@ footer{
         height: 42px;
         background-color: #707070;
         text-align: center;
-        border: 2px solid white;
+        border: 2px solid #FFFFFF;
         border-right:1px;
         border-left:1px;
         position: absolute;
@@ -217,7 +272,7 @@ footer{
     .container {
         position: relative;
         text-align: center;
-        color: white;
+        color: #FFFFFF;
     }
     
     .logo {
@@ -229,7 +284,7 @@ footer{
         font-family: Rolanti;
         font-size: 50px;
         text-decoration: none;
-        color: white;
+        color: #FFFFFF;
         text-transform: uppercase;
         text-shadow:
         -3px -3px 0 #000,  
@@ -247,10 +302,18 @@ footer{
         margin-top: 220px;
         margin-left: -0px;
     }
+
+    .inhoudContact{
+        height: auto;
+        width: 100%;
+        background-color: #2699FB;
+        margin-top: 220px;
+        margin-left: -0px;
+    }
     
-    h1{
+    h2{
         font-family: Arial, Helvetica, sans-serif;
-        color: white;
+        color: #FFFFFF;
         text-transform: uppercase;
         font-size: 250%;
         text-align: center;
@@ -268,10 +331,10 @@ footer{
         height: 25px;
         line-height: 25px;
         background-color: black;
-        color: white;
+        color: #FFFFFF;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
-        border: 2px solid white;
+        border: 2px solid #FFFFFF;
         border-right :1px;
         border-left: 1px;
         border-bottom: 1px;
@@ -306,7 +369,7 @@ footer{
         height: 40px;
         background-color: #707070;
         text-align: center;
-        border: 2px solid white;
+        border: 2px solid #FFFFFF;
         border-right:1px;
         border-left:1px;
         z-index: inherit;
@@ -329,7 +392,7 @@ footer{
     
     .container {
         text-align: center;
-        color: white;
+        color: #FFFFFF;
         /*margin-top: 100px;*/
     }
     
@@ -341,7 +404,7 @@ footer{
         font-family: Rolanti;
         font-size: 40px;
         text-decoration: none;
-        color: white;
+        color: #FFFFFF;
         text-transform: uppercase;
         text-shadow:
         -3px -3px 0 #000,  
@@ -356,10 +419,17 @@ footer{
         background-color: #2699FB;
         margin-top: 110px;
     }
+
+    .inhoudContact{
+        height: auto;
+        width: 100%;
+        background-color: #2699FB;
+        margin-top: 110px;
+    }
     
-    h1{
+    h2{
         font-family: Arial, Helvetica, sans-serif;
-        color: white;
+        color: #FFFFFF;
         text-transform: uppercase;
         font-size: 200%;
         text-align: center;
@@ -376,10 +446,10 @@ footer{
         height: 25px;
         line-height: 25px;
         background-color: black;
-        color: white;
+        color: #FFFFFF;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
-        border: 2px solid white;
+        border: 2px solid #FFFFFF;
         border-right :1px;
         border-left: 1px;
         border-bottom: 1px;
