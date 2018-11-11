@@ -1,1 +1,5 @@
-robots
+User-Agent: *
+Disallow: 
+Disallow: /inholland
+
+Sitemap: https://thijsvtol.github.io/sitemap.xml

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Thijs van Tol" />
 	<meta name="description" content="Entertainment website for Webmarkup assignment" />
-	<meta name="keywords" content="mobilegames, games, boardgames, online " />
+	<meta name="keywords" content="contact, help, contactform, info, onlinegames, mobilegames, games, boardgames, online " />
 
     <link rel = "stylesheet" type = "text/css" href = "css/stylesheet.css" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
@@ -17,12 +17,12 @@
     <!--Banner-->
     <header>
         <article class="container">
-            <img class="imglogo" src="img/companylogoBG.jpg" alt="Company Logo">
-            <a class="logo" href="index.html">Company Name</a>
+            <img class="imglogo" title="Logo" src="img/companylogoBG.jpg" alt="Company Logo">
+            <h1><a class="logo" href="index.html">Company Name</a></h1>
         </article>
     </header>
 
-    <article class="inhoud">
+    <article class="inhoudContact">
         <!--MENU-->
         <nav class="navbar">
             <a class="hidemobile" href="index.html">Home</a>
@@ -40,8 +40,9 @@
                 </article> 
         </nav>
         <!--INHOUD-->
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <form action="nowhere.php" method="post">
+            <h3>More information</h3>
                 <fieldset>
                     <label >Select topic</label>
                     <select>
@@ -50,15 +51,17 @@
                         <option value="recruitement">Recruitement</option>
                     </select>
                 </fieldset>
-                <fieldset class="contactFormFieldset">
+                <fieldset >
                     <input
+                            class="contactFormFieldset"
                             type="text"
                             name="contactFormName"
                             placeholder="Your name.."
                     />
                 </fieldset>
-                <fieldset class="contactFormFieldset">
+                <fieldset >
                     <input
+                            class="contactFormFieldset"
                             type="email"
                             name="email"
                             placeholder="Your email.."
@@ -66,6 +69,7 @@
                 </fieldset>
                 <fieldset>
                     <textarea
+                        class="contactFormFieldset"
                             rows="7"
                             cols="40"
                             name="message"
@@ -77,10 +81,10 @@
                         value="Submit"
                 />
             </form>
-            
+
         <!--EINDE INHOUD-->
         <!--Footer-->
-        <footer>©2018 - Thijs van Tol - Inholland</footer>
+        <footer>&copy;2018 - Thijs van Tol - Inholland</footer>
     </article>
     <!--Background Video-->
     <video autoplay muted loop id="backgroundvideo" class="hidetablet hidemobile">
