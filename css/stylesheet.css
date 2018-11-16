@@ -231,11 +231,11 @@ body{
 /*Content Conact (also product page)*/
 
 .inhoudContact{
-    height: 600px;
+    height: 570px;
     width: 720px;
     background-color: #2699FB;
     position: absolute;
-    top: 280px;
+    top: 270px;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 187px;
@@ -257,6 +257,11 @@ h2{
     text-transform: uppercase;
     font-size: 4em;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 144px;
+    font-weight: unset;
 }
 
 /*Products*/
@@ -395,14 +400,13 @@ h2{
     text-transform: uppercase;
     font-size: 250%;
     text-align: center;
+    font-weight: unset;
 }
 
 /*Photos index*/
 
 .fotos{
-    margin-left: 2.5%;
-    width: 46%;
-    padding-bottom: 4px;
+    width: 49.1%;
     padding-top: 4px;
     background-color: #FFFFFF;
     height: 30vw;
@@ -411,6 +415,7 @@ h2{
 
 .backgrndphoto{
     background-color: #FFFFFF;
+    padding-left: 6px;
 }
 
 /*Products*/
@@ -575,6 +580,7 @@ h2{
     text-transform: uppercase;
     font-size: 10vw;
     text-align: center;
+    font-weight: unset;
 }
 
 /*Photos index*/
