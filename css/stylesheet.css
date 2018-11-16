@@ -230,11 +230,11 @@ body{
 /*Content Conact (also product page)*/
 
 .inhoudContact{
-    height: 650px;
+    height: 600px;
     width: 720px;
     background-color: #2699FB;
     position: absolute;
-    top: 310px;
+    top: 280px;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 187px;
@@ -531,7 +531,7 @@ body{
     top: 360px;
     width: 100vw;
     transform: translate(-50%);
-    margin-top: -355px;
+    margin-top: -9.5em;
     font-family: Rolanti;
     font-size: 1.5em;
     text-decoration: none;
